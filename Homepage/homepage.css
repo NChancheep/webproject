@@ -1,25 +1,45 @@
 *{
-    font-family: 'Bebas Neue', cursive;
-    
+  font-family: 'Bebas Neue', cursive;
 }
 
 body {
     background: url("picture/Background_regis.jpg"); 
-    
     background-size:100%;
 }
 
 .rightnav{
-    float: right; 
-    
+    float: right;    
 }
+
 .rightnav a{
-  
+    text-decoration: none;
     color: white;
-    font-size: 35px;
+    font-size: 30px;
     text-align: center;
     padding: 14px 16px;
     
+}
+
+section{
+    background-color:#f1f1f1;
+}
+.hamburger-icon {
+    margin: 0;
+    padding: 19px 16px;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.hamburger-icon span {
+    width: 30px;
+    background-color: white;
+    height: 3px;
+    display: block;
+    margin-bottom: 5px;
+}
+.hamburger-icon span:last-child {
+    margin-bottom:0px;
 }
 
 .container {
@@ -35,24 +55,19 @@ body {
   transform: translate(-50%, -50%);
 }
 
-section{
-    background-color:#f1f1f1;
+div.container4 {
+  height: 10em;
+  position: relative 
 }
-.hamburger-icon {
-    margin: 0;
-    padding: 19px 16px;
-    
-   
-}
-.hamburger-icon span {
-    width: 30px;
-    background-color: white;
-    height: 3px;
-    display: block;
-    margin-bottom: 5px;
-}
-.hamburger-icon span:last-child {
-    margin-bottom:0px;
+
+div.container4 p {
+  margin: 0;
+  background: yellow;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%) 
 }
 
 .sidenav {
