@@ -2,21 +2,11 @@
     font-family: 'Bebas Neue', cursive;
 }
 
-body {
 
-    background-image: url("picture/decoration people.png");
-    background-repeat: no-repeat; 
-    background-size: 100%; 
-    background-position: center bottom;
-    background-attachment: fixed;
-    background-size: cover;
-
-}
 
 nav {
-
-    float: right;
     padding: 12px;
+    float: right;
     margin-right: 2%;
 }
 
@@ -50,7 +40,7 @@ nav a {
     margin-bottom: 0px;
 }
 
-.sidenav1 {
+.sidenav {
     height: 100%;
     width: 0;
     position: fixed;
@@ -63,7 +53,7 @@ nav a {
     padding-top: 60px;
 }
 
-.sidenav1 a {
+.sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 20px;
@@ -72,11 +62,11 @@ nav a {
     transition: 0.5s;
 }
 
-.sidenav1 a:hover {
+.sidenav a:hover {
     color: grey;
 }
 
-.sidenav1 .closebtn {
+.sidenav .closebtn {
     position: absolute;
     top: 0;
     right: 25px;
@@ -89,27 +79,35 @@ nav a {
     padding: 10px 10px 0px 10px;
     bottom: 0;
     width: 100%;
+    /* Height of the footer*/
     height: 40px;
     background: rgba(196, 196, 196, 0.596);
 }
 
-
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 375px) {
   
     .rightnav1{
         display: none;
     }
+    body { 
+        font-size: 2em; 
+     }
 }
 
-@media screen and (min-width: 401px) {
+@media screen and (min-width: 376px) {
     
     .rightnav2{
         display: none;
     }
 }
-#section1 {
-    height: 600px;
+
+.section2{
+    /* margin-top: 50px; */
 }
+
+/* #section1 {
+    height: 600px;
+} */
 
 /* #section2 {
     height: 600px; */

@@ -26,27 +26,9 @@
     </script>
 </head>
 <body>
-    <main class="section1">
-        <nav>
-            <ul class="rightnav1">
-                <a href="#"><i class=""></i>HOME</a>
-                <a href="#"><i class=""></i>Member</a>
-            </ul>
-            <ul class="rightnav2">
-                <a href="#"><i class="glyphicon glyphicon-home"></i></a>
-                <a href="#"><i class="glyphicon glyphicon-user"></i></a>
-            </ul>
-            </nav>
-            <header>
-                <div id="sidenav" class="sidenav">
-                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                    <a href="#">OUR STORY</a>
-                    <a href="#">FOOD & DRINKS</a>
-                    <a href="#">BRANCHES</a>
-                    <a href="#">NEWS UPDATE</a>
-                    <a href="#">CONTACT</a>
-                    
-                </div>
+    <main class="container-sd">
+        <header class="row">            
+            <div class="col">
                 <span style="font-size:20px;cursor:pointer" onclick="openNav()">
                     <label class="hamburger-icon">
                         <span>&nbsp;</span>
@@ -54,9 +36,30 @@
                         <span>&nbsp;</span>
                     </label>
                 </span>
-            </header>
+                <div id="sidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="#">OUR STORY</a>
+                    <a href="#">FOOD & DRINKS</a>
+                    <a href="#">BRANCHES</a>
+                    <a href="#">NEWS UPDATE</a>
+                    <a href="#">CONTACT</a>  
+                </div>
+              </div>
+              <nav class="col text-right">
+                <ul class="rightnav1">
+                    <a href="#"><i class=""></i>HOME</a>
+                    <a href="#"><i class=""></i>Member</a>
+                </ul>
+                <ul class="rightnav2">
+                    <a href="#"><i class="glyphicon glyphicon-home"></i></a>
+                    <a href="#"><i class="glyphicon glyphicon-user"></i></a>
+                </ul>
+            </nav>
+            
+            <hr>
+        </header>
         
-        <section>
+        <section class="section2">
             
         </section>
     </main>
