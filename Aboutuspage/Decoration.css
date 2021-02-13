@@ -3,26 +3,22 @@
 }
 
 body {
-
-    background-image: url("picture/decoration people.png");
-    background-repeat: no-repeat; 
-    background-size: 100%; 
-    background-position: center bottom;
+    background: url("decoration 4.jpg");
+    background-repeat: no-repeat;
+    /* background-size: 100%; */
+    background-position: center;
     background-attachment: fixed;
     background-size: cover;
-
 }
 
-nav {
-
+.rightnav {
     float: right;
-    padding: 12px;
     margin-right: 2%;
 }
 
-nav a {
+.rightnav a {
     text-decoration: none;
-    color: black;
+    color: grey;
     font-size: 25px;
     text-align: center;
     padding: 14px 16px;
@@ -40,7 +36,7 @@ nav a {
 
 .hamburger-icon span {
     width: 30px;
-    background-color: black;
+    background-color: grey;
     height: 3px;
     display: block;
     margin-bottom: 5px;
@@ -50,37 +46,37 @@ nav a {
     margin-bottom: 0px;
 }
 
-.sidenav1 {
+.sidenav {
     height: 100%;
     width: 0;
     position: fixed;
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: black;
+    background-color: grey;
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
 }
 
-.sidenav1 a {
+.sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 20px;
-    color: white;
+    color: black;
     display: block;
     transition: 0.5s;
 }
 
-.sidenav1 a:hover {
+.sidenav a:hover {
     color: grey;
 }
 
-.sidenav1 .closebtn {
+.sidenav .closebtn {
     position: absolute;
     top: 0;
     right: 25px;
-    font-size: 50px;
+    font-size: 20px;
     margin-left: 50px;
 }
 
@@ -89,28 +85,20 @@ nav a {
     padding: 10px 10px 0px 10px;
     bottom: 0;
     width: 100%;
+    /* Height of the footer*/
     height: 40px;
     background: rgba(196, 196, 196, 0.596);
 }
 
-
 @media screen and (max-width: 400px) {
-  
-    .rightnav1{
-        display: none;
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 20px;
+    }
+    .footer p{
+        font-size: 50px;
     }
 }
-
-@media screen and (min-width: 401px) {
-    
-    .rightnav2{
-        display: none;
-    }
-}
-#section1 {
-    height: 600px;
-}
-
-/* #section2 {
-    height: 600px; */
-/* } */
