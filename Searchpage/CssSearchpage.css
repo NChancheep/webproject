@@ -3,12 +3,12 @@
 }
 
 body {
-    background: url("picture/BG_Home_page.jpg");
+    /* background: url("picture/BG_Home_page.jpg");
     background-repeat: no-repeat;
-    /* background-size: 100%; */
+    background-size: 100%;
     background-position: center;
     background-attachment: fixed;
-    background-size: cover;
+    background-size: cover; */
 }
 
 .rightnav1 {
