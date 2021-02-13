@@ -11,12 +11,12 @@ body {
     background-size: cover;
 }
 
-.rightnav {
+.rightnav1 {
     float: right;
     margin-right: 2%;
 }
 
-.rightnav a {
+.rightnav1 a {
     text-decoration: none;
     color: white;
     font-size: 25px;
