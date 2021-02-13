@@ -4,16 +4,25 @@
 
 body {
 
+    background-image: url("picture/decoration people.png");
+    background-repeat: no-repeat; 
+    background-size: 100%; 
+    background-position: center bottom;
+    background-attachment: fixed;
+    background-size: cover;
+
 }
 
-.rightnav1 {
+nav {
+    
     float: right;
+    padding-top: 10px;
     margin-right: 2%;
 }
 
-.rightnav1 a {
+nav a {
     text-decoration: none;
-    color: white;
+    color: black;
     font-size: 25px;
     text-align: center;
     padding: 14px 16px;
@@ -31,7 +40,7 @@ body {
 
 .hamburger-icon span {
     width: 30px;
-    background-color: white;
+    background-color: black;
     height: 3px;
     display: block;
     margin-bottom: 5px;
@@ -41,37 +50,37 @@ body {
     margin-bottom: 0px;
 }
 
-.sidenav {
+.sidenav1 {
     height: 100%;
     width: 0;
     position: fixed;
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: white;
+    background-color: black;
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
 }
 
-.sidenav a {
+.sidenav1 a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 20px;
-    color: black;
+    color: white;
     display: block;
     transition: 0.5s;
 }
 
-.sidenav a:hover {
+.sidenav1 a:hover {
     color: grey;
 }
 
-.sidenav .closebtn {
+.sidenav1 .closebtn {
     position: absolute;
     top: 0;
     right: 25px;
-    font-size: 20px;
+    font-size: 50px;
     margin-left: 50px;
 }
 
@@ -80,21 +89,31 @@ body {
     padding: 10px 10px 0px 10px;
     bottom: 0;
     width: 100%;
-    /* Height of the footer*/
     height: 40px;
     background: rgba(196, 196, 196, 0.596);
 }
 
 @media screen and (max-width: 400px) {
-    .sidenav {
+    
+    /* sidenav1 {
         padding-top: 15px;
     }
 
-    .sidenav a {
+    .sidenav1 a {
         font-size: 20px;
     }
     .footer p{
         font-size: 50px;
+    } */
+    .rightnav1{
+        display: none;
+    }
+}
+@media screen and (min-width: 401px) {
+    
+    
+    .rightnav2{
+        display: none;
     }
 }
 
