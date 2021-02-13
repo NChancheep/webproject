@@ -3,12 +3,7 @@
 }
 
 body {
-    background: url("picture/decoration people.png");
-    background-repeat: no-repeat;
-    /* background-size: 100%; */
-    background-position: center;
-    background-attachment: fixed;
-    background-size: cover;
+
 }
 
 .rightnav1 {
