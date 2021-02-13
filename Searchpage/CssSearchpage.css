@@ -3,12 +3,14 @@
 }
 
 body {
+
     background-image: url("picture/decoration people.png");
     background-repeat: no-repeat; 
     background-size: 100%; 
     background-position: center bottom;
     background-attachment: fixed;
     background-size: cover;
+
 }
 
 nav {
