@@ -23,7 +23,7 @@
 
         .login-page {
             width: 360px;
-            padding: 15% 0 0;
+            padding: 10% 0 0;
             margin: auto;
         }
 
@@ -160,8 +160,6 @@
             height: 40px;
             background: rgb(255, 255, 255);
         }
-       
-        
         
     </style>
     <script>
@@ -204,20 +202,44 @@
     </header>
     <div class="login-page">
         <div class="form">
-            <h2>Login</h2>
-            <form class="register-form">
-                <input type="text" placeholder="name" />
-                <input type="password" placeholder="password" />
-                <input type="text" placeholder="email address" />
-                <button>create</button>
-                <p class="message">Already registered? <a href="#">Sign In</a></p>
-            </form>
-            <form class="login-form">
-                <input type="text" placeholder="username" />
-                <input type="password" placeholder="password" />
-                <button>login</button>
-                <p class="message">Not registered? <a href="#">Create an account</a></p>
-            </form>
+        
+            <div id="signup">   
+                <h1>Sign Up</h1>
+                
+                <form action="/" method="post">
+                
+                <div class="top-row">
+                  <div class="field-wrap">
+                    <label>
+                      First Name
+                    </label>
+                    <input type="text" required autocomplete="off" />
+                  </div>
+              
+                  <div class="field-wrap">
+                    <label>
+                      Last Name
+                    </label>
+                    <input type="text"required autocomplete="off"/>
+                  </div>
+                </div>
+      
+                <div class="field-wrap">
+                  <label>
+                    Email Address
+                  </label>
+                  <input type="email"required autocomplete="off"/>
+                </div>
+
+                <div class="field-wrap">
+                  <label>
+                    Set A Password
+                  </label>
+                  <input type="password"required autocomplete="off"/>
+                </div>
+                <button type="submit" class="button button-block">Get Started</button>
+                </form>
+              </div>
         </div>
     </div>
 </div>
