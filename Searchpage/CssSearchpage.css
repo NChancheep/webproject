@@ -1,7 +1,8 @@
 * {
-    font-family: 'Bebas Neue', cursive;
+    /* font-family: 'Bebas Neue', cursive; */
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: Arial, Helvetica, sans-serif;
 }
-
 
 
 nav {
@@ -51,6 +52,8 @@ nav a {
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
+    white-space: nowrap;
+    overflow: auto;
 }
 
 .sidenav a {
@@ -74,7 +77,31 @@ nav a {
     margin-left: 50px;
 }
 
-.footer {
+.img-fluid {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+
+#imgline{
+    width: 50%;
+    
+}
+
+.form-control{
+    margin-left: 10%;
+    
+}
+
+.buttonsearch{
+    margin-right: 10%;
+}
+.img3{
+    padding-top: 10%;
+}
+
+footer {
     position: fixed;
     padding: 10px 10px 0px 10px;
     bottom: 0;
@@ -84,7 +111,7 @@ nav a {
     background: rgba(196, 196, 196, 0.596);
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 1024px) {
   
     .rightnav1{
         display: none;
@@ -94,21 +121,12 @@ nav a {
      }
 }
 
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 1025px) {
     
     .rightnav2{
         display: none;
     }
 }
 
-.section2{
-    /* margin-top: 50px; */
-}
 
-/* #section1 {
-    height: 600px;
-} */
-
-/* #section2 {
-    height: 600px; */
-/* } */
+  
