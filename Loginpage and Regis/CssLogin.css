@@ -45,7 +45,7 @@ nav a {
 
 .hamburger-icon span {
     width: 30px;
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     height: 3px;
     display: block;
     margin-bottom: 5px;
