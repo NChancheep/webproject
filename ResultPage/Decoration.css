@@ -141,10 +141,7 @@ nav a {
 label{
     padding-top: 3%;
 }
-.card{
-    width: 500px;
-    border-radius: 10px;
-}
+
 .card-img{
     border-radius: 10px;
     display: block;
@@ -152,6 +149,7 @@ label{
     margin-right: auto;
     text-align: center;
 }
+
 footer {
     position: fixed;
     padding: 10px 10px 0px 10px;
@@ -161,6 +159,12 @@ footer {
     height: 40px;
     background: rgba(196, 196, 196, 0.596);
     color: black;
+}
+
+@media screen and (max-width: 375px) {
+    .card-mb-3{
+        max-width: 320px;
+    }
 }
 
 @media screen and (max-width: 1024px) {
@@ -178,7 +182,12 @@ footer {
     .rightnav2{
         display: none;
     }
+
+    .col-md-4{
+        margin-bottom: 20px;
+    }
+
+    .card-text{
+        font-size: 16px;
+    }
 }
-
-
-  
