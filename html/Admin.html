@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/CssAdmin.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <script>
+        function openNav() {
+            document.getElementById("sidenav").style.width = "200px";
+        }
+
+        function closeNav() {
+            document.getElementById("sidenav").style.width = "0";
+        }
+    </script>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        #section1 {
+            height: 250px;
+            background-color: rgb(255, 255, 255);
+        }
+
+        #section2 {
+            height: 300px;
+            background-color: rgb(255, 255, 255);
+            margin-top: 4%;
+        }
+
+        #section3 {
+            background-color: rgb(0, 0, 0);
+            width: fit-content;
+        }
+
+        #section4 {
+            height: 500px;
+            background: url("../picture/Admin_Nav_blackpaper.jpg");
+            background-repeat: no-repeat;
+            /* background-size: 100%; */
+            background-position: center;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+
+        #section5 {
+            height: 600px;
+            background-color: rgb(255, 255, 255);
+        }
+    </style>
+</head>
+
+<body>
+    <main class="container-sd">
+        <header class="row">
+            <div class="Allnav">
+                <div class="col">
+                    <span style="font-size:20px;cursor:pointer" onclick="openNav()">
+                        <label class="hamburger-icon">
+                            <span>&nbsp;</span>
+                            <span>&nbsp;</span>
+                            <span>&nbsp;</span>
+                        </label>
+                    </span>
+                    <div id="sidenav" class="sidenav">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                        <a href="HtmlOurstorypage.html">OUR STORY</a>
+                        <a href="HtmlAboutuspage.html">ABOUTUS</a>
+                        <a href="HtmlCategoriespage.html">CATAGORIES</a>
+                        <a href="HtmlSearchpage.html">SEARCH</a>
+                        <a href="HtmlLoginpage.html">LOGIN</a>
+                        <a href="Main.html">LOGOUT</a>
+                    </div>
+                </div>
+                <nav class="col text-right">
+                    <ul class="rightnav1">
+                        <a href="Main.html"><i class=""></i><b>HOME</b></a>
+                        <a href="HtmlLoginpage.html"><i class=""></i><b>MEMBER</b></a>
+                    </ul>
+                    <ul class="rightnav2">
+                        <a href="#"><i class="glyphicon glyphicon-home"></i></a>
+                        <a href="#"><i class="glyphicon glyphicon-user"></i></a>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <section class="content" id="section1">
+            <div class="container-fluid">
+                <!-- Small boxes (Stat box) -->
+                <div class="AllBox row">
+                    <h1 style="margin-bottom: 2%; margin-left: 1%; font-weight: bold;">DASHBORD</h1>
+                    <div class="col-lg-3 col-6">
+                        <!-- small box -->
+                        <div class="small-box bg-info">
+                            <div class="inner">
+                                <h3>150 Order</h3>
+                                <p>New Orders</p>
+                            </div>
+                            <a href="#" class="small-box-footer">More info </a>
+                        </div>
+                    </div>
+                    <!-- ./col -->
+                    <div class="col-lg-3 col-6">
+                        <!-- small box -->
+                        <div class="small-box bg-white">
+                            <div class="inner">
+                                <h3>823 user</h3>
+                                <p>All User</p>
+                            </div>
+                            <a href="#" class="small-box-footer">More info</a>
+                        </div>
+                    </div>
+                    <!-- ./col -->
+                    <div class="col-lg-3 col-6">
+                        <!-- small box -->
+                        <div class="small-box bg-warning">
+                            <div class="inner">
+                                <h3>44 New</h3>
+                                <p>User Registrations</p>
+                            </div>
+                            <a href="#" class="small-box-footer">More info</a>
+                        </div>
+                    </div>
+                    <!-- ./col -->
+                    <div class="col-lg-3 col-6">
+                        <!-- small box -->
+                        <div class="small-box bg-danger">
+                            <div class="inner">
+                                <h3>65 User</h3>
+                                <p>Unique Visitors</p>
+                            </div>
+                            <a href="#" class="small-box-footer">More info</a>
+                        </div>
+                    </div>
+                    <!-- ./col -->
+                </div>
+            </div>
+        </section>
+
+        <div class="container-fluid" id="section2">
+            <div class="row">
+                <div class="Barchart col-8">
+                    <!-- Small boxes (Stat box) -->
+                    <script>
+                        window.onload = function () {
+                            var chart = new CanvasJS.Chart("TopOf", {
+                                animationEnabled: true,
+                                theme: "light1",
+                                axisY: {
+                                    title: "Bath"
+                                },
+                                data: [{
+                                    type: "column",
+                                    dataPoints: [{
+                                            y: 120000,
+                                            label: "Central Bangna"
+                                        },
+                                        {
+                                            y: 266455,
+                                            label: "ICONSIAM"
+                                        },
+                                        {
+                                            y: 169709,
+                                            label: "Nang Linchee"
+                                        },
+                                        {
+                                            y: 158400,
+                                            label: "The Promenade"
+                                        },
+                                        {
+                                            y: 190000,
+                                            label: "Centralplaza Pinklao"
+                                        },
+                                        {
+                                            y: 180000,
+                                            label: "Mega Bangna"
+                                        },
+                                        {
+                                            y: 201100,
+                                            label: "Central Lardprao"
+                                        },
+                                        {
+                                            y: 180900,
+                                            label: "Emquartier"
+                                        },
+                                        {
+                                            y: 160000,
+                                            label: "Central Chidlom"
+                                        },
+                                        {
+                                            y: 170060,
+                                            label: "J Avenue"
+                                        },
+                                        {
+                                            y: 120000,
+                                            label: "Phaholyothin (Ari)"
+                                        },
+                                        {
+                                            y: 280000,
+                                            label: "Siam Center"
+                                        },
+                                        {
+                                            y: 150000,
+                                            label: "The Crystal"
+                                        },
+                                        {
+                                            y: 120000,
+                                            label: "The Circle"
+                                        },
+                                        {
+                                            y: 240000,
+                                            label: "Groove @ Centralworld"
+                                        }
+                                    ]
+                                }]
+                            });
+                            chart.render();
+                        }
+                    </script>
+                    <h1 style="text-align: center; font-size: 2em ; font-weight: bold;">TOP OF EACH BRANCH</h1>
+                    <div class="col-sm" id="TopOf" style="height: 370px; width: 100%;"></div>
+                    <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+                </div>
+                <div class="Circle col-lg-2">
+                    <div id="piechart" style="width: 900px; height: 500px; margin-right: 10%;"></div>
+                    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+                    <script type="text/javascript">
+                        google.charts.load("current", {
+                            packages: ["corechart"]
+                        });
+                        google.charts.setOnLoadCallback(drawChart);
+
+                        function drawChart() {
+                            var data = google.visualization.arrayToDataTable([
+                                ['Language', 'Speakers (in millions)'],
+                                ['Spaghetti', 5.85],
+                                ['Dessert', 1.66],
+                                ['Slad', 0.316],
+                                ['Thai', 0.0791]
+                            ]);
+
+                            var options = {
+                                pieSliceText: 'label',
+                            };
+
+                            var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+                            chart.draw(data, options);
+                        }
+                    </script>
+                </div>
+            </div>
+        </div>
+
+
+    </main>
+</body>
+
+</html>
