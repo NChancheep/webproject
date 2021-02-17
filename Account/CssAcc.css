@@ -6,7 +6,7 @@
 
 
 body {
-    background: url("picture/LoginRegisBackground.jpg");
+    background: url("picture/Acc_Background.jpg");
     background-repeat: no-repeat;
     /* background-size: 100%; */
     background-attachment: fixed;
@@ -85,83 +85,92 @@ nav a {
     margin-left: 50px;
 }
 
-.form-control {
-    margin-left: 10%;
+.padding {
+    padding: 3rem;
 }
 
-footer {
-    position: fixed;
-    padding: 10px 10px 0px 10px;
-    bottom: 0;
-    width: 100%;
-    /* Height of the footer*/
-    background: rgb(255, 255, 255);
+.card {
+    border-radius: 5px;
+    border: none;
+}
+.user-card-full .user-profile {
+    border-radius: 5px 0 0 5px
 }
 
-.login-page {
-    width: 360px;
-    padding-left: 0%;
-    padding-right: 0%;
-    padding-top: 10%;
-    padding-bottom: 0%;
-    margin: auto;
-    z-index: -1;
+.bg {
+    background: rgb(53, 53, 53)
 }
 
-.form {
-    position: relative;
-    background: #c4c4c4d8;
-    max-width: 360px;
-    margin: 0 auto 100px;
-    padding: 45px;
-    text-align: center;
-    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
-    border-radius: 30px;
+.user-profile {
+    padding: 20px 0
 }
 
-.form input {
-    font-family: "Roboto", sans-serif;
-    outline: 0;
-    background: #f2f2f2;
-    width: 100%;
-    border: 0;
-    margin: 0 0 15px;
-    padding: 15px;
-    box-sizing: border-box;
-    font-size: 14px;
-    border-radius: 10px;
+.card-block {
+    padding: 1.25rem
 }
 
-.form button {
-    font-family: "Roboto", sans-serif;
-    text-transform: uppercase;
-    outline: 0;
-    background: #000000;
-    width: 100%;
-    border: 0;
-    padding: 15px;
-    color: #FFFFFF;
-    font-size: 14px;
-    -webkit-transition: all 0.3 ease;
-    transition: all 0.3 ease;
-    cursor: pointer;
-    border-radius: 10px;
+.m-b-25 {
+    margin-bottom: 25px
 }
 
-.create,
-.forgot {
-    margin: 2%;
-    color: #000000;
-    text-decoration: none;
+h6 {
+    font-size: 14px
 }
 
-.Login {
-    margin-bottom: 10%;
-    margin-top: 0;
-    color: #000000;
-    text-decoration: none;
-
+.card .card-block p {
+    line-height: 25px
 }
+
+@media only screen and (min-width: 1400px) {
+    p {
+        font-size: 14px
+    }
+}
+
+.card-block {
+    padding: 1.25rem
+}
+
+.m-b-20 {
+    margin-bottom: 20px
+}
+
+.p-b-5 {
+    padding-bottom: 5px !important
+}
+
+.card .card-block p {
+    line-height: 25px
+}
+
+.m-b-10 {
+    margin-bottom: 10px
+}
+
+.f-w-600 {
+    font-weight: 600
+}
+
+.m-b-20 {
+    margin-bottom: 20px
+}
+
+.m-t-40 {
+    margin-top: 20px
+}
+
+.p-b-5 {
+    padding-bottom: 5px !important
+}
+
+.m-b-10 {
+    margin-bottom: 10px
+}
+
+.m-t-40 {
+    margin-top: 20px
+}
+
 
 @media screen and (max-width: 1024px) {
     .rightnav1 {
@@ -175,18 +184,7 @@ footer {
 
 @media screen and (max-width: 375px) {
     body {
-        background: url("picture/Background_regis.jpg");
         background-size: auto;
-    }
-
-    .login-page {
-        width: 300px;
-        padding: 30% 0 0;
-        margin-top: auto;
-        margin-left: auto;
-        margin-bottom: auto;
-        margin-right: auto;
-
     }
 }
 

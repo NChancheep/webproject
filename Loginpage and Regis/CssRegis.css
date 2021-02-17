@@ -6,17 +6,11 @@
 
 
 body {
-    background: url("picture/Background_regis.jpg");
+    background: url("picture/LoginRegisBackground.jpg");
     background-repeat: no-repeat;
     /* background-size: 100%; */
     background-attachment: fixed;
     background-size: cover;
-}
-
-
-.Allnav {
-    background-color: #ffffff;
-
 }
 
 nav {
@@ -111,9 +105,9 @@ footer {
     padding-right: 0%;
     padding-top: 10%;
     padding-bottom: 0%;
-    margin : auto;
+    margin: auto;
     z-index: -1;
-  
+
 }
 
 .form {
@@ -170,7 +164,8 @@ footer {
     text-decoration: none;
 
 }
-#AllLabel{
+
+#AllLabel {
     text-align: left;
 }
 
@@ -179,6 +174,7 @@ footer {
     .rightnav1 {
         display: none;
     }
+
     body {
         font-size: 2em;
     }
