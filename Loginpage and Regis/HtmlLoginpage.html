@@ -23,6 +23,26 @@
         function closeNav() {
             document.getElementById("sidenav").style.width = "0";
         }
+        function switchAdmin()
+        {
+            
+            let userRef = document.getElementById("form1");
+            let adminRef = document.getElementById("form2");
+            userRef.style.display = "none";
+            if (adminRef.style.display == "none") {
+                adminRef.style.display = "block";
+            }
+        }
+        function switchuser()
+        {
+            
+            let userRef = document.getElementById("form1");
+            let adminRef = document.getElementById("form2");
+            adminRef.style.display = "none";
+            if (userRef.style.display == "none") {
+                userRef.style.display = "block";
+            }
+        }
     </script>
 </head>
 
@@ -61,7 +81,7 @@
         </header>
 
         <section class="login-page">
-            <div class="form">
+            <div class="form" id="form1">
                 <h2 class="Login">Login</h2>
                 <form class="login-form" action="/action_page.php">
                     <input type="text" placeholder="username" />
@@ -74,6 +94,25 @@
                         <a href="#">
                             <p class="forgot">Forgot password</p>
                         </a>
+                        <a id="admin" href="#" onclick="switchAdmin();">Admin</a>
+                        
+                    </div>
+                </form>
+            </div>
+            <div class="form" id="form2" style="display:none;">
+                <h2 class="Login">Login Administrative</h2>
+                <form class="login-form" action="/action_page.php">
+                    <input type="text" placeholder="username" />
+                    <input type="password" placeholder="password" />
+                    <button>login</button>
+                    <div class="CreateAndForgot">
+                        <a href="#">
+                            <p class="create">Create an account</p>
+                        </a>
+                        <a href="#">
+                            <p class="forgot">Forgot password</p>
+                        </a>
+                        <a id="user" href="#" onclick="switchuser();">User</a>
                     </div>
                 </form>
             </div>
