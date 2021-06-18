@@ -1,0 +1,116 @@
+* {
+    font-family: 'Bebas Neue', cursive;
+}
+
+body {
+
+    background-image: url("picture/decoration people.png");
+    background-repeat: no-repeat; 
+    background-size: 100%; 
+    background-position: center bottom;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+nav {
+
+    float: right;
+    padding: 12px;
+    margin-right: 2%;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    text-align: center;
+    padding: 14px 16px;
+
+}
+
+.hamburger-icon {
+    margin: 0;
+    padding: 19px 16px;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.hamburger-icon span {
+    width: 30px;
+    background-color: black;
+    height: 3px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.hamburger-icon span:last-child {
+    margin-bottom: 0px;
+}
+
+.sidenav1 {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: black;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav1 a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    display: block;
+    transition: 0.5s;
+}
+
+.sidenav1 a:hover {
+    color: grey;
+}
+
+.sidenav1 .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 50px;
+    margin-left: 50px;
+}
+
+.footer {
+    position: fixed;
+    padding: 10px 10px 0px 10px;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background: rgba(196, 196, 196, 0.596);
+}
+
+
+@media screen and (max-width: 400px) {
+  
+    .rightnav1{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 401px) {
+    
+    .rightnav2{
+        display: none;
+    }
+}
+#section1 {
+    height: 600px;
+}
+
+/* #section2 {
+    height: 600px; */
+/* } */
